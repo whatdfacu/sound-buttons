@@ -6,15 +6,16 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
     background-color: #000000;
-    padding: 10px;
+    justify-content: space-evenly;
+    height: 100vh;
+    column-gap: 3px;
+    row-gap: 3px;
   }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
     text-align: center;
   }
   .button-29 {
@@ -28,9 +29,8 @@
   color: #fff;
   cursor: pointer;
   display: inline-flex;
-  
-  height: 5vw;
-  width: 15vw;
+  height: 100%;
+  width: auto; 
   justify-content: center;
   line-height: 1;
   list-style: none;
@@ -46,7 +46,7 @@
   touch-action: manipulation;
   white-space: nowrap;
   will-change: box-shadow,transform;
-  font-size: 1.5vw;
+  font-size: 4vw;
   margin: 4px 0px;
 }
 
